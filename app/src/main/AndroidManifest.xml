@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LilacCosmeticApp">
         <activity
+            android:name=".lips"
+            android:exported="false" />
+        <activity
+            android:name=".eye"
+            android:exported="false" />
+        <activity
+            android:name=".face"
+            android:exported="false" />
+        <activity
+            android:name=".catogeries"
+            android:exported="false" />
+        <activity
+            android:name=".HomePage"
+            android:exported="false" />
+        <activity
+            android:name=".loadingScreen"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
