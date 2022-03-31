@@ -63,19 +63,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.026" />
 
-    <Button
-        android:id="@+id/button9"
-        android:layout_width="32dp"
-        android:layout_height="27dp"
-        android:layout_marginTop="776dp"
-        android:foreground="@drawable/sale_icon_wb"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.957"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.983" />
-
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar3"
         android:layout_width="420dp"
@@ -85,6 +72,7 @@
         android:theme="?attr/actionBarTheme"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
@@ -102,24 +90,92 @@
         app:layout_constraintVertical_bias="0.979" />
 
     <Button
-        android:id="@+id/button11"
-        android:layout_width="38dp"
-        android:layout_height="32dp"
-        android:layout_marginTop="776dp"
+        android:id="@+id/button9"
+        android:layout_width="32dp"
+        android:layout_height="27dp"
         android:foreground="@drawable/_line_icon_wb"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.463"
+        app:layout_constraintHorizontal_bias="0.527"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.984" />
+        app:layout_constraintVertical_bias="0.979" />
 
     <Button
-        android:id="@+id/button14"
-        android:layout_width="229dp"
-        android:layout_height="61dp"
-        android:foreground="@drawable/group_12"
+        android:id="@+id/button11"
+        android:layout_width="32dp"
+        android:layout_height="27dp"
+        android:foreground="@drawable/sale_icon_wb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.957"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.979" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="396dp"
+        android:layout_height="136dp"
         android:background="@android:color/transparent"
-        tools:layout_editor_absoluteX="114dp"
-        tools:layout_editor_absoluteY="129dp" />
+        android:foreground="@drawable/group_11"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.512" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="396dp"
+        android:layout_height="136dp"
+        android:background="@android:color/transparent"
+        android:foreground="@drawable/group_10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.314" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="396dp"
+        android:layout_height="136dp"
+        android:background="@android:color/transparent"
+        android:foreground="@drawable/group_9"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="396dp"
+        android:layout_height="136dp"
+        android:background="@android:color/transparent"
+        android:foreground="@drawable/group_12"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.71" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="396dp"
+        android:layout_height="136dp"
+        android:background="@android:color/transparent"
+        android:foreground="@drawable/group_13"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.908" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
