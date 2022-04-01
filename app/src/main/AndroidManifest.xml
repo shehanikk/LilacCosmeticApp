@@ -10,6 +10,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LilacCosmeticApp">
         <activity
+            android:name=".home"
+            android:exported="false"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.LilacCosmeticApp.NoActionBar" />
+        <activity
+            android:name=".createaccountpage"
+            android:exported="false" />
+        <activity
             android:name=".loginPage"
             android:exported="false" />
         <activity
