@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LilacCosmeticApp">
         <activity
+            android:name=".loginPage"
+            android:exported="false" />
+        <activity
+            android:name=".welcomeScreen"
+            android:exported="false" />
+        <activity
             android:name=".tool"
             android:exported="false" />
         <activity
