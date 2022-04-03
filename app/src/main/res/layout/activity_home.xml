@@ -7,18 +7,32 @@
     tools:context=".home">
 
     <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar17"
+        android:layout_width="432dp"
+        android:layout_height="57dp"
+        android:background="#865F7F"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar19"
-        android:layout_width="420dp"
-        android:layout_height="52dp"
+        android:layout_width="432dp"
+        android:layout_height="57dp"
         android:background="@color/white"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.571"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.99" />
 
     <Button
         android:id="@+id/button64"
@@ -56,44 +70,31 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.979" />
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar17"
-        android:layout_width="432dp"
-        android:layout_height="57dp"
-        android:background="#865F7F"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
     <Button
         android:id="@+id/button55"
         android:layout_width="40dp"
         android:layout_height="31dp"
         android:layout_marginTop="12dp"
         android:foreground="@drawable/group_7"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.956"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.016" />
+        app:layout_constraintVertical_bias="0.005" />
 
     <Button
-        android:id="@+id/button57"
+        android:id="@+id/btnGotoLogin"
         android:layout_width="33dp"
         android:layout_height="29dp"
         android:layout_marginTop="16dp"
         android:foreground="@drawable/group_37"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintHorizontal_bias="0.042"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.016" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/textView10"
@@ -115,20 +116,22 @@
 
     <ScrollView
         android:id="@+id/root_layout"
-        android:layout_width="409dp"
-        android:layout_height="704dp"
+        android:layout_width="414dp"
+        android:layout_height="610dp"
         android:background="#B8AEB0"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="57dp">
+        app:layout_constraintBottom_toTopOf="@+id/toolbar19"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/toolbar19"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar17">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical">
 
             <ImageView
                 android:id="@+id/imageView7"
-                android:layout_width="wrap_content"
+                android:layout_width="425dp"
                 android:layout_height="wrap_content"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -136,7 +139,8 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.206"
-                app:srcCompat="@drawable/fenty" />
+                app:srcCompat="@drawable/fenty"
+                tools:ignore="ImageContrastCheck" />
 
             <Button
                 android:id="@+id/button69"
