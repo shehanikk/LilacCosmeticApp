@@ -14,6 +14,7 @@ class loginPage : AppCompatActivity() {
         backtowelcome.setOnClickListener() {
             val intent = Intent(this, welcomeScreen::class.java)
             startActivity(intent)
+            finish()
         }
 
         val gotoHome = findViewById<Button>(R.id.btnHome)
@@ -29,4 +30,5 @@ class loginPage : AppCompatActivity() {
             startActivity(intent)
         }
     }
+
 }
