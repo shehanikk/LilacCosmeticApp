@@ -38,14 +38,13 @@
         <activity
             android:name=".catogeries"
             android:exported="false" />
+
         <activity
             android:name=".HomePage"
-            android:exported="false" />
+            android:exported="false"/>
+
         <activity
             android:name=".loadingScreen"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
