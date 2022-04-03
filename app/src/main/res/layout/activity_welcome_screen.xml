@@ -89,7 +89,7 @@
         app:layout_constraintVertical_bias="0.979" />
 
     <Button
-        android:id="@+id/button56"
+        android:id="@+id/btnClosetoHome"
         android:layout_width="23dp"
         android:layout_height="23dp"
         android:foreground="@drawable/group_26"
@@ -113,7 +113,7 @@
         app:srcCompat="@drawable/group_25" />
 
     <Button
-        android:id="@+id/button58"
+        android:id="@+id/btnLogin"
         android:layout_width="301dp"
         android:layout_height="55dp"
         android:foreground="@drawable/group_23"
@@ -124,7 +124,7 @@
         app:layout_constraintVertical_bias="0.476" />
 
     <Button
-        android:id="@+id/button59"
+        android:id="@+id/btnCreateAccount"
         android:layout_width="301dp"
         android:layout_height="55dp"
         android:foreground="@drawable/group_24"
