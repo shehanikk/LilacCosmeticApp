@@ -53,7 +53,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/button52"
+        android:id="@+id/btnHomeWelcome"
         android:layout_width="32dp"
         android:layout_height="27dp"
         android:foreground="@drawable/home_icon_wb"
@@ -65,7 +65,7 @@
         app:layout_constraintVertical_bias="0.979" />
 
     <Button
-        android:id="@+id/button53"
+        android:id="@+id/btnCategoryWelcome"
         android:layout_width="32dp"
         android:layout_height="27dp"
         android:foreground="@drawable/_line_icon_wb"
@@ -77,7 +77,7 @@
         app:layout_constraintVertical_bias="0.979" />
 
     <Button
-        android:id="@+id/button54"
+        android:id="@+id/btnSaleWelcome"
         android:layout_width="32dp"
         android:layout_height="27dp"
         android:foreground="@drawable/sale_icon_wb"

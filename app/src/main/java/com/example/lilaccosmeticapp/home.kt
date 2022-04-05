@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import kotlinx.android.synthetic.main.activity_catogeries.*
 import kotlinx.android.synthetic.main.activity_home.*
 
 class home : AppCompatActivity() {
@@ -18,18 +19,23 @@ class home : AppCompatActivity() {
 
         }
 
-        btnCatagory.setOnClickListener(){
+        btnCatagoryHome.setOnClickListener(){
             val intent = Intent(this,catogeries::class.java)
             startActivity(intent)
         }
 
-        btnCart.setOnClickListener(){
+        btnCartHome.setOnClickListener(){
             val intent = Intent(this,shoppingcart::class.java)
             startActivity(intent)
         }
 
-        btnHome1.setOnClickListener(){
+        btnHomeHome.setOnClickListener(){
             val intent = Intent(this,home::class.java)
+            startActivity(intent)
+        }
+
+        btnSaleHome.setOnClickListener(){
+            val intent = Intent(this,sales::class.java)
             startActivity(intent)
         }
 

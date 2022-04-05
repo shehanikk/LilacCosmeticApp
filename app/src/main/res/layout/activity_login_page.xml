@@ -8,7 +8,7 @@
     tools:context=".loginPage">
 
     <Button
-        android:id="@+id/btnBacktoWelcome"
+        android:id="@+id/btnBackLogin"
         android:layout_width="40dp"
         android:layout_height="31dp"
         android:layout_marginTop="16dp"
@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.016" />
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar15"
+        android:id="@+id/toolBarupp"
         android:layout_width="432dp"
         android:layout_height="57dp"
         android:background="#865F7F"
@@ -66,7 +66,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/btnHome"
+        android:id="@+id/btnHomeLogin"
         android:layout_width="32dp"
         android:layout_height="27dp"
         android:foreground="@drawable/home_icon_wb"
@@ -78,7 +78,7 @@
         app:layout_constraintVertical_bias="0.979" />
 
     <Button
-        android:id="@+id/btnCategories"
+        android:id="@+id/btnCategoryLogin"
         android:layout_width="32dp"
         android:layout_height="27dp"
         android:foreground="@drawable/_line_icon_wb"
@@ -90,7 +90,7 @@
         app:layout_constraintVertical_bias="0.979" />
 
     <Button
-        android:id="@+id/button45"
+        android:id="@+id/btnSaleLogin"
         android:layout_width="32dp"
         android:layout_height="27dp"
         android:foreground="@drawable/sale_icon_wb"

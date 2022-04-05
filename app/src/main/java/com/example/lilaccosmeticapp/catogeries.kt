@@ -4,24 +4,28 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_catogeries.*
-import kotlinx.android.synthetic.main.activity_home.*
 
 class catogeries : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_catogeries)
 
-        btnHome2.setOnClickListener(){
+        btnHomeCatalogue.setOnClickListener(){
             val intent = Intent(this,home::class.java)
             startActivity(intent)
         }
 
-        btnCatogery2.setOnClickListener(){
+        btnCategoryCatalogue.setOnClickListener(){
             val intent = Intent(this,catogeries::class.java)
             startActivity(intent)
         }
 
-        btnCart2.setOnClickListener(){
+        btnSaleCatalogue.setOnClickListener(){
+            val intent = Intent(this,sales::class.java)
+            startActivity(intent)
+        }
+
+        btnCartCatalogue.setOnClickListener(){
             val intent = Intent(this,shoppingcart::class.java)
             startActivity(intent)
         }
