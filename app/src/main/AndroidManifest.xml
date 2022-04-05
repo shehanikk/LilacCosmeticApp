@@ -38,7 +38,7 @@
         <activity
             android:name=".catogeries"
             android:exported="false" />
-        
+
         <activity
             android:name=".loadingScreen"
             android:exported="true">

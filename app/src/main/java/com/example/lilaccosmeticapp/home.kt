@@ -14,6 +14,7 @@ class home : AppCompatActivity() {
         gotoLogin.setOnClickListener(){
             val intent = Intent(this,welcomeScreen::class.java)
             startActivity(intent)
+            finish()
         }
     }
 }
