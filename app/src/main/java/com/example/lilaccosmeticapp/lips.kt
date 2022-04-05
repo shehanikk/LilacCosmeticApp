@@ -3,7 +3,6 @@ package com.example.lilaccosmeticapp
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import kotlinx.android.synthetic.main.activity_face.*
 import kotlinx.android.synthetic.main.activity_lips.*
 
 class lips : AppCompatActivity() {
@@ -31,7 +30,7 @@ class lips : AppCompatActivity() {
             startActivity(intent)
         }
 
-        btnCartLip.setOnClickListener(){
+        btnCartEye.setOnClickListener(){
             val intent = Intent(this,shoppingcart::class.java)
             startActivity(intent)
         }
