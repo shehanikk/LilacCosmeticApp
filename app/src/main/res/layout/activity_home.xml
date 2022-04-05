@@ -33,7 +33,7 @@
         app:layout_constraintVertical_bias="0.979" />
 
     <Button
-        android:id="@+id/button65"
+        android:id="@+id/btnCatagory"
         android:layout_width="32dp"
         android:layout_height="27dp"
         android:foreground="@drawable/_line_icon_wb"
