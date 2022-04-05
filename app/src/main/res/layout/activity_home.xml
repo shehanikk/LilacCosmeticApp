@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button64"
+        android:id="@+id/btnHome1"
         android:layout_width="32dp"
         android:layout_height="27dp"
         android:foreground="@drawable/home_icon_wb"
@@ -57,7 +57,7 @@
         app:layout_constraintVertical_bias="0.979" />
 
     <Button
-        android:id="@+id/button55"
+        android:id="@+id/btnCart"
         android:layout_width="40dp"
         android:layout_height="31dp"
         android:layout_marginTop="12dp"

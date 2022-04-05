@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LilacCosmeticApp">
         <activity
+            android:name=".sales"
+            android:exported="false" />
+        <activity
+            android:name=".shoppingcart"
+            android:exported="false" />
+        <activity
             android:name=".home"
             android:exported="false"
             android:label="@string/title_activity_home"
@@ -38,7 +44,6 @@
         <activity
             android:name=".catogeries"
             android:exported="false" />
-        
         <activity
             android:name=".loadingScreen"
             android:exported="true">

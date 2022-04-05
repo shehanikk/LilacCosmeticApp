@@ -23,6 +23,16 @@ class home : AppCompatActivity() {
             startActivity(intent)
         }
 
+        btnCart.setOnClickListener(){
+            val intent = Intent(this,shoppingcart::class.java)
+            startActivity(intent)
+        }
+
+        btnHome1.setOnClickListener(){
+            val intent = Intent(this,home::class.java)
+            startActivity(intent)
+        }
+
     }
 
 }
