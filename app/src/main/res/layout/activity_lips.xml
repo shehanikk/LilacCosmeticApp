@@ -8,7 +8,7 @@
     tools:context=".lips">
 
     <Button
-        android:id="@+id/button28"
+        android:id="@+id/btnLipstick"
         android:layout_width="396dp"
         android:layout_height="136dp"
         android:background="@android:color/transparent"
@@ -21,7 +21,7 @@
         app:layout_constraintVertical_bias="0.116" />
 
     <Button
-        android:id="@+id/button29"
+        android:id="@+id/btnLipgloss"
         android:layout_width="396dp"
         android:layout_height="136dp"
         android:background="@android:color/transparent"
@@ -48,7 +48,7 @@
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/button32"
+        android:id="@+id/btnHomeLip"
         android:layout_width="32dp"
         android:layout_height="27dp"
         android:foreground="@drawable/home_icon_wb"
@@ -60,7 +60,7 @@
         app:layout_constraintVertical_bias="0.979" />
 
     <Button
-        android:id="@+id/button33"
+        android:id="@+id/btnCategoryLip"
         android:layout_width="32dp"
         android:layout_height="27dp"
         android:foreground="@drawable/_line_icon_wb"
@@ -72,7 +72,7 @@
         app:layout_constraintVertical_bias="0.979" />
 
     <Button
-        android:id="@+id/button34"
+        android:id="@+id/btnSaleLip"
         android:layout_width="32dp"
         android:layout_height="27dp"
         android:foreground="@drawable/sale_icon_wb"
@@ -97,7 +97,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <Button
-        android:id="@+id/button35"
+        android:id="@+id/btnCartLip"
         android:layout_width="40dp"
         android:layout_height="31dp"
         android:layout_marginTop="12dp"
@@ -110,7 +110,7 @@
         app:layout_constraintVertical_bias="0.016" />
 
     <Button
-        android:id="@+id/button36"
+        android:id="@+id/btnBackLip"
         android:layout_width="40dp"
         android:layout_height="31dp"
         android:layout_marginTop="16dp"
