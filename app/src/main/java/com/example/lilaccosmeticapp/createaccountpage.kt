@@ -30,5 +30,6 @@ class createaccountpage : AppCompatActivity() {
             val intent = Intent(this,sales::class.java)
             startActivity(intent)
         }
+
     }
 }
