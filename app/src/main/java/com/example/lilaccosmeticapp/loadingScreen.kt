@@ -15,7 +15,7 @@ class loadingScreen : AppCompatActivity() {
         handler = Handler()
         handler.postDelayed({
 
-            val intent = Intent(this,HomePage::class.java)
+            val intent = Intent(this,home::class.java)
             startActivity(intent)
             finish()
         },3000)
