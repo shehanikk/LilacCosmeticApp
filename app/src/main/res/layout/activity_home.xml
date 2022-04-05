@@ -102,9 +102,10 @@
 
     <ScrollView
         android:id="@+id/root_layout"
-        android:layout_width="411dp"
-        android:layout_height="618dp"
+        android:layout_width="410dp"
+        android:layout_height="671dp"
         android:background="#B8AEB0"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar17">
