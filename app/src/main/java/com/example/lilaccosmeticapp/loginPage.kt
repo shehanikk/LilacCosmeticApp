@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.Toast
+import kotlinx.android.synthetic.main.activity_login_page.*
 
 class loginPage : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,7 +21,7 @@ class loginPage : AppCompatActivity() {
 
         val gotoHome = findViewById<Button>(R.id.btnHome)
         backtowelcome.setOnClickListener() {
-            val intent = Intent(this, home::class.java)
+            val intent = Intent(this, welcomeScreen::class.java)
             startActivity(intent)
 
         }
@@ -28,6 +30,12 @@ class loginPage : AppCompatActivity() {
         gotoCategories.setOnClickListener() {
             val intent = Intent(this, catogeries::class.java)
             startActivity(intent)
+        }
+
+        btnLoginSave.setOnClickListener(){
+            Toast.makeText(this, "Fill the above fields first", Toast.LENGTH_SHORT).show()
+
+            // todo empty field validation need to be entered here
         }
     }
 

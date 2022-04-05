@@ -14,7 +14,7 @@ class welcomeScreen : AppCompatActivity() {
         closetoHome.setOnClickListener(){
             val intent = Intent(this,home::class.java)
             startActivity(intent)
-            finish()
+
         }
         val loginPageact = findViewById<Button>(R.id.btnLogin)
         loginPageact.setOnClickListener(){
