@@ -113,65 +113,29 @@
         app:layout_constraintVertical_bias="0.098"
         app:srcCompat="@drawable/group_31" />
 
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="393dp"
-        android:layout_height="548dp"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbar16"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.498"
-        app:srcCompat="@drawable/group_33" />
-
-    <EditText
-        android:id="@+id/editTextTextPassword2"
-        android:layout_width="301dp"
-        android:layout_height="48dp"
-        android:ems="10"
-        android:inputType="textPassword"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.436"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.584" />
-
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText3"
-        android:layout_width="300dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="216dp"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbar11"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.378"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.374" />
-
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/textInputEditText4"
-        android:layout_width="300dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="316dp"
-        app:layout_constraintBottom_toBottomOf="@+id/toolbar11"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.432"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.374" />
-
     <Button
         android:id="@+id/btnSignUp"
-        android:layout_width="327dp"
-        android:layout_height="55dp"
+        android:layout_width="332dp"
+        android:layout_height="54dp"
         android:foreground="@drawable/group_32"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.392"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.714" />
+        app:layout_constraintVertical_bias="0.723" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="398dp"
+        android:layout_height="561dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.576"
+        app:srcCompat="@drawable/group_39" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
