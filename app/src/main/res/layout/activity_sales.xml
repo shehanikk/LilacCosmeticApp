@@ -90,12 +90,12 @@
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/view_pager"
-        android:layout_width="375dp"
-        android:layout_height="591dp"
+        android:layout_width="415dp"
+        android:layout_height="640dp"
         app:layout_constraintBottom_toTopOf="@+id/toolbar26"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar21"
-        app:layout_constraintVertical_bias="0.479" />
+        app:layout_constraintVertical_bias="0.459" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
