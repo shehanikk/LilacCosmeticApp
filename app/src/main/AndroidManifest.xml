@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LilacCosmeticApp">
         <activity
+            android:name=".remcollection"
+            android:exported="false" />
+        <activity
+            android:name=".maccollection"
+            android:exported="false" />
+        <activity
+            android:name=".kyliecollection"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
         <activity

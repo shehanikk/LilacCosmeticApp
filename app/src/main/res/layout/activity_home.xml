@@ -6,6 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".home">
 
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="437dp"
+        android:layout_height="639dp"
+        app:layout_constraintBottom_toTopOf="@+id/toolbar17"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar18"
+        app:srcCompat="@drawable/group_43" />
+
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar18"
         android:layout_width="432dp"
@@ -17,6 +28,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar17"
+        android:layout_width="420dp"
+        android:layout_height="52dp"
+        android:background="@color/white"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btnCartHome"
@@ -84,19 +107,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.983" />
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar17"
-        android:layout_width="420dp"
-        android:layout_height="52dp"
-        android:background="@color/white"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.444"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
-
     <Button
         android:id="@+id/btnCatagoryHome"
         android:layout_width="38dp"
@@ -109,17 +119,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.984" />
 
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="417dp"
-        android:layout_height="622dp"
-        app:layout_constraintBottom_toTopOf="@+id/toolbar17"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar18"
-        app:srcCompat="@drawable/group_43" />
-
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/view_pagerHome"
         android:layout_width="424dp"
@@ -127,9 +126,10 @@
         android:orientation="vertical"
         app:layout_constraintBottom_toTopOf="@+id/toolbar17"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/toolbar18"
-        app:layout_constraintVertical_bias="0.994" />
+        app:layout_constraintVertical_bias="1.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
