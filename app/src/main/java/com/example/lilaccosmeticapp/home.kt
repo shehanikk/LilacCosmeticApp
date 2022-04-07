@@ -6,7 +6,6 @@ import android.os.Bundle
 import android.widget.Button
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.widget.ViewPager2
-import kotlinx.android.synthetic.main.activity_catogeries.*
 import kotlinx.android.synthetic.main.activity_home.*
 
 class home : AppCompatActivity() {
@@ -18,9 +17,9 @@ class home : AppCompatActivity() {
          viewPager = findViewById(R.id.view_pagerHome)
 
         val fragments: ArrayList<Fragment> = arrayListOf(
-            home1Fragment(),
-            home2Fragment(),
-            home3Fragment()
+            Home1Fragment(),
+            Home2Fragment(),
+            Home3Fragment()
         )
 
         val adapter = ViewPagerHomeAdapter(fragments, this)
