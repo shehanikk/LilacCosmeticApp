@@ -187,7 +187,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/txtUsenameCreateLayout"
+        android:id="@+id/txtUsernameCreateLayout"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="325dp"
         android:layout_height="wrap_content"
@@ -224,7 +224,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnSign"
         android:layout_width="343dp"
         android:layout_height="76dp"
         android:text="Sign Up"
