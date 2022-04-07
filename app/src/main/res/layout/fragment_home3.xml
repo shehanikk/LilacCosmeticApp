@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".home3Fragment"
+    android:background="@drawable/kendall_collection_has_everything_you_need_to_create_gorgeous__soft_looks_for_your_perfect_spring_glam___2_">
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

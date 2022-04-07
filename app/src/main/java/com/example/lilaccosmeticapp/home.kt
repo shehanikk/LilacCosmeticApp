@@ -4,13 +4,28 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import androidx.fragment.app.Fragment
+import androidx.viewpager2.widget.ViewPager2
 import kotlinx.android.synthetic.main.activity_catogeries.*
 import kotlinx.android.synthetic.main.activity_home.*
 
 class home : AppCompatActivity() {
+    lateinit var viewPager: ViewPager2
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_home)
+
+         viewPager = findViewById(R.id.view_pagerHome)
+
+        val fragments: ArrayList<Fragment> = arrayListOf(
+            home1Fragment(),
+            home2Fragment(),
+            home3Fragment()
+        )
+
+        val adapter = ViewPagerHomeAdapter(fragments, this)
+        viewPager.adapter = adapter
+
 
         val gotoLogin = findViewById<Button>(R.id.btnGotoLogin)
         gotoLogin.setOnClickListener(){
@@ -39,6 +54,15 @@ class home : AppCompatActivity() {
             startActivity(intent)
         }
 
+    }
+
+    override fun onBackPressed() {
+        if(viewPager.currentItem == 0){
+            super.onBackPressed()
+        }else{
+            viewPager.currentItem = viewPager.currentItem - 1
+
+        }
     }
 
 }
