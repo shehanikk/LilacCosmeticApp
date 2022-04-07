@@ -203,7 +203,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <Button
-        android:id="@+id/outlinedButton"
+        android:id="@+id/btnLogin"
         style="@style/TextAppearance.MaterialComponents.Button"
         android:layout_width="332dp"
         android:layout_height="68dp"
