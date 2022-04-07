@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LilacCosmeticApp">
         <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
             android:name=".sales"
             android:exported="false" />
         <activity
