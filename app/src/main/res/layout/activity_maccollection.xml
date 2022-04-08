@@ -27,7 +27,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.87" />
+        app:layout_constraintVertical_bias="0.855" />
 
     <TextView
         android:id="@+id/textView38"
@@ -42,7 +42,7 @@
         app:layout_constraintHorizontal_bias="0.695"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.75" />
+        app:layout_constraintVertical_bias="0.737" />
 
     <TextView
         android:id="@+id/textView39"
@@ -57,7 +57,7 @@
         app:layout_constraintHorizontal_bias="0.514"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.788" />
+        app:layout_constraintVertical_bias="0.775" />
 
     <ImageView
         android:id="@+id/imageView14"
@@ -147,7 +147,7 @@
         app:layout_constraintHorizontal_bias="0.894"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.821" />
+        app:layout_constraintVertical_bias="0.812" />
 
     <TextView
         android:id="@+id/textView34"
@@ -194,7 +194,7 @@
         />
 
     <Button
-        android:id="@+id/btnHomeKylie2"
+        android:id="@+id/btnHomeMac"
         android:layout_width="32dp"
         android:layout_height="27dp"
         android:foreground="@drawable/home_icon_wb"
@@ -206,7 +206,7 @@
         app:layout_constraintVertical_bias="0.979" />
 
     <Button
-        android:id="@+id/btnCategoryKylie2"
+        android:id="@+id/btnCategoryMac"
         android:layout_width="32dp"
         android:layout_height="27dp"
         android:foreground="@drawable/_line_icon_wb"
@@ -218,7 +218,7 @@
         app:layout_constraintVertical_bias="0.979" />
 
     <Button
-        android:id="@+id/btnSaleKylie2"
+        android:id="@+id/btnSaleMac"
         android:layout_width="32dp"
         android:layout_height="27dp"
         android:foreground="@drawable/sale_icon_wb"
@@ -230,7 +230,7 @@
         app:layout_constraintVertical_bias="0.979" />
 
     <Button
-        android:id="@+id/btnBackKylie2"
+        android:id="@+id/btnBackMac"
         android:layout_width="40dp"
         android:layout_height="31dp"
         android:foreground="@drawable/group_8"
