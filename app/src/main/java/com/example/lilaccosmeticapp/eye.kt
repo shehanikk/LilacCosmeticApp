@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_eye.*
+import kotlinx.android.synthetic.main.activity_eyepalettes.*
 
 class eye : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -30,8 +31,18 @@ class eye : AppCompatActivity() {
             startActivity(intent)
         }
 
-        btnCartLip.setOnClickListener(){
+        btnCartEye.setOnClickListener(){
             val intent = Intent(this,shoppingcart::class.java)
+            startActivity(intent)
+        }
+
+        btnEyePalettes.setOnClickListener(){
+            val intent = Intent(this,eyepalettes::class.java)
+            startActivity(intent)
+        }
+
+        btnEyeliner.setOnClickListener(){
+            val intent = Intent(this,eyeliner::class.java)
             startActivity(intent)
         }
 
