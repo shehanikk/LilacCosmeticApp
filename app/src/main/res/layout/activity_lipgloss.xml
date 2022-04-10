@@ -4,144 +4,109 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".kyliecollection">
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="427dp"
-        android:layout_height="651dp"
-        android:foreground="@drawable/untitled_design__8_"
-        app:layout_constraintBottom_toTopOf="@+id/toolbar19"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.437"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar20"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <ImageView
-        android:id="@+id/imageView19"
-        android:layout_width="181dp"
-        android:layout_height="230dp"
-        android:foreground="@drawable/group_49"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.069"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.896" />
+    tools:context=".lipgloss">
 
     <Button
-        android:id="@+id/btnKylieCartAdd5"
+        android:id="@+id/btnKylieCartAdd20"
         android:layout_width="43dp"
         android:layout_height="43dp"
         android:background="@android:color/transparent"
         android:foreground="@drawable/group_44"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintHorizontal_bias="0.372"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.912" />
-
-    <TextView
-        android:id="@+id/textView26"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-black"
-        android:text="CHEEK QUAD"
-        android:textColor="#000000"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.107"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.86" />
-
-    <ImageView
-        android:id="@+id/imageView18"
-        android:layout_width="181dp"
-        android:layout_height="230dp"
-        android:foreground="@drawable/group_48"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.93"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.453" />
+        app:layout_constraintVertical_bias="0.565" />
 
     <Button
-        android:id="@+id/btnKylieCartAdd4"
+        android:id="@+id/btnKylieCartAdd19"
         android:layout_width="43dp"
         android:layout_height="43dp"
         android:background="@android:color/transparent"
         android:foreground="@drawable/group_44"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.918"
+        app:layout_constraintHorizontal_bias="0.372"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.59" />
+        app:layout_constraintVertical_bias="0.911" />
 
-    <TextView
-        android:id="@+id/textView25"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-black"
-        android:text="KENDALL GLOSS"
-        android:textColor="#000000"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="414dp"
+        android:layout_height="640dp"
+        app:layout_constraintBottom_toTopOf="@+id/toolbar32"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.805"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.547" />
+        app:layout_constraintTop_toBottomOf="@+id/textView58"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/lipgloss" />
 
     <Button
-        android:id="@+id/btnBackKylie"
-        android:layout_width="40dp"
-        android:layout_height="31dp"
-        android:foreground="@drawable/group_8"
+        android:id="@+id/btnKylieCartAdd18"
+        android:layout_width="43dp"
+        android:layout_height="43dp"
+        android:background="@android:color/transparent"
+        android:foreground="@drawable/group_44"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintHorizontal_bias="0.926"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.02" />
+        app:layout_constraintVertical_bias="0.565" />
 
-    <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar20"
-        android:layout_width="432dp"
-        android:layout_height="57dp"
-        android:background="#865F7F"
-        android:minHeight="?attr/actionBarSize"
-        android:theme="?attr/actionBarTheme"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.571"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView19"
-        android:layout_width="195dp"
-        android:layout_height="31dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:fontFamily="sans-serif-black"
-        android:letterSpacing="0.2"
-        android:text="KYLIE COLLECTION"
-        android:textColor="@color/white"
-        android:textSize="16sp"
+    <ImageView
+        android:id="@+id/imageView30"
+        android:layout_width="188dp"
+        android:layout_height="247dp"
+        android:foreground="@drawable/group_74"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.565"
+        app:layout_constraintHorizontal_bias="0.071"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.02" />
+        app:layout_constraintVertical_bias="0.427" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="188dp"
+        android:layout_height="247dp"
+        android:foreground="@drawable/group_76"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.071"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.915" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="188dp"
+        android:layout_height="247dp"
+        android:foreground="@drawable/group_75"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.991"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.427" />
+
+    <ImageView
+        android:id="@+id/imageView33"
+        android:layout_width="188dp"
+        android:layout_height="247dp"
+        android:foreground="@drawable/image_7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.915" />
 
     <androidx.appcompat.widget.Toolbar
-        android:id="@+id/toolbar19"
+        android:id="@+id/toolbar32"
         android:layout_width="420dp"
         android:layout_height="52dp"
         android:background="@color/white"
@@ -152,10 +117,10 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
 
-        app:layout_constraintVertical_bias="1.0" />
+        />
 
     <Button
-        android:id="@+id/btnHomeKylie"
+        android:id="@+id/btnHomeLipgloss"
         android:layout_width="32dp"
         android:layout_height="27dp"
         android:foreground="@drawable/home_icon_wb"
@@ -167,7 +132,7 @@
         app:layout_constraintVertical_bias="0.979" />
 
     <Button
-        android:id="@+id/btnCategoryKylie"
+        android:id="@+id/btnCategoryLipgloss"
         android:layout_width="32dp"
         android:layout_height="27dp"
         android:foreground="@drawable/_line_icon_wb"
@@ -179,7 +144,7 @@
         app:layout_constraintVertical_bias="0.979" />
 
     <Button
-        android:id="@+id/btnSaleKylie"
+        android:id="@+id/btnSaleLipgloss"
         android:layout_width="32dp"
         android:layout_height="27dp"
         android:foreground="@drawable/sale_icon_wb"
@@ -190,99 +155,146 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.979" />
 
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="181dp"
-        android:layout_height="230dp"
-        android:foreground="@drawable/group_47"
+    <Button
+        android:id="@+id/btnBackLipgloss"
+        android:layout_width="40dp"
+        android:layout_height="31dp"
+        android:foreground="@drawable/group_8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintHorizontal_bias="0.043"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.452" />
+        app:layout_constraintVertical_bias="0.02" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar31"
+        android:layout_width="432dp"
+        android:layout_height="57dp"
+        android:background="#865F7F"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btnKylieCartAdd"
-        android:layout_width="43dp"
-        android:layout_height="43dp"
-        android:background="@android:color/transparent"
-        android:foreground="@drawable/group_44"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:id="@+id/btnCartLipgloss"
+        android:layout_width="40dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="12dp"
+        android:foreground="@drawable/group_7"
+        app:layout_constraintBottom_toBottomOf="@+id/toolbar"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.375"
+        app:layout_constraintHorizontal_bias="0.956"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.59" />
+        app:layout_constraintVertical_bias="0.016" />
 
     <TextView
-        android:id="@+id/textView20"
+        android:id="@+id/textView58"
+        android:layout_width="109dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-black"
+        android:letterSpacing="0.2"
+        android:text="LIP GLOSS"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/textView61"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
-        android:text="CRAYON SET"
-        android:textColor="#000000"
+        android:text="TOO FACED"
+        android:textColor="#020202"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.101"
+        app:layout_constraintHorizontal_bias="0.099"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.547" />
+        app:layout_constraintVertical_bias="0.529" />
 
     <TextView
-        android:id="@+id/textView21"
+        android:id="@+id/textView62"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-medium"
-        android:text="$32"
-        android:textColor="#000000"
+        android:fontFamily="sans-serif-condensed"
+        android:text="$17"
+        android:textColor="#020202"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintHorizontal_bias="0.082"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.588" />
+        app:layout_constraintVertical_bias="0.561" />
 
     <TextView
-        android:id="@+id/textView27"
+        android:id="@+id/textView65"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-medium"
-        android:text="$16"
+        android:fontFamily="sans-serif-black"
+        android:text="GLOSS BOMB"
         android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.604"
+        app:layout_constraintHorizontal_bias="0.774"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.588" />
+        app:layout_constraintVertical_bias="0.53" />
 
     <TextView
-        android:id="@+id/textView28"
+        android:id="@+id/textView66"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="sans-serif-medium"
-        android:text="$40"
+        android:fontFamily="sans-serif-condensed"
+        android:text="$20"
         android:textColor="#000000"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintHorizontal_bias="0.622"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.902" />
+        app:layout_constraintVertical_bias="0.561" />
 
-    <ImageView
-        android:id="@+id/imageView20"
-        android:layout_width="176dp"
-        android:layout_height="225dp"
-        android:foreground="@drawable/image_1"
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="LIP GLOW"
+        android:textColor="#000000"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.91"
+        app:layout_constraintHorizontal_bias="0.094"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.866" />
+
+    <TextView
+        android:id="@+id/textView68"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="$34"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.082"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.897" />

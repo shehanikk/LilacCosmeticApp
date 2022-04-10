@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LilacCosmeticApp">
         <activity
+            android:name=".lipgloss"
+            android:exported="false" />
+        <activity
+            android:name=".lipstick"
+            android:exported="false" />
+        <activity
             android:name=".remcollection"
             android:exported="false" />
         <activity
