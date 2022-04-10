@@ -30,7 +30,7 @@ class eye : AppCompatActivity() {
             startActivity(intent)
         }
 
-        btnCartEye.setOnClickListener(){
+        btnCartLip.setOnClickListener(){
             val intent = Intent(this,shoppingcart::class.java)
             startActivity(intent)
         }
