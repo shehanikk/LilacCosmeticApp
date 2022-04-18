@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "215198601945",
+    "project_id": "lilaccosmeticapp",
+    "storage_bucket": "lilaccosmeticapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215198601945:android:dfe92d1f1309ae19fee4c8",
+        "android_client_info": {
+          "package_name": "com.example.lilaccosmeticapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "215198601945-8alma7kgut4jlo45fqcbb584hpf3kafp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBg1OSYLCDFKOu9NOBJf877QkZM-MFAbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "215198601945-8alma7kgut4jlo45fqcbb584hpf3kafp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

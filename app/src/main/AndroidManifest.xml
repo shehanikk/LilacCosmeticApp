@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LilacCosmeticApp">
         <activity
+            android:name=".productlayout"
+            android:exported="false" />
+        <activity
             android:name=".eyeliner"
             android:exported="false" />
         <activity
