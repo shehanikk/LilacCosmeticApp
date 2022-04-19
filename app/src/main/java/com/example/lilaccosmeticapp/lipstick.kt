@@ -8,6 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.lilaccosmeticapp.adapter.productAdapter
 import com.example.lilaccosmeticapp.models.product
 import com.google.firebase.database.*
+import com.google.firebase.database.DataSnapshot
 import kotlinx.android.synthetic.main.activity_lips.*
 import kotlinx.android.synthetic.main.activity_lipstick.*
 
