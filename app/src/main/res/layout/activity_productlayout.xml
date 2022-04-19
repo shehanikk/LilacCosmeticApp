@@ -5,29 +5,17 @@
     android:layout_margin="8dp"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content">
-
     <LinearLayout
         android:orientation="vertical"
         android:gravity="center"
         android:padding="16dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
         <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="149dp"
-            android:layout_height="141dp"
-            android:src="@drawable/ic_launcher_background" />
-
-        <TextView
-            android:id="@+id/txtName"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="start"
-            android:text="Name of the product"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
+            android:id="@+id/tv_image"
+            android:src="@drawable/common_google_signin_btn_icon_dark"
+            android:layout_width="150dp"
+            android:layout_height="150dp"/>
         <TextView
             android:id="@+id/txtPrice"
             android:text="$1.0"
@@ -36,13 +24,13 @@
             android:layout_gravity="start"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
-
-        <Button
-            android:id="@+id/button"
-            android:layout_width="56dp"
+        <TextView
+            android:text="Name of Drink"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@android:color/transparent"
-            android:foreground="@drawable/group_44" />
-
+            android:id="@+id/txtName"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_gravity="start"/>
     </LinearLayout>
 </androidx.cardview.widget.CardView>
