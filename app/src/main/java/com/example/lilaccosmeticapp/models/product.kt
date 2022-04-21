@@ -1,3 +1,8 @@
 package com.example.lilaccosmeticapp.models
 
-data class product(var name:String?=null, var price:String?=null)
+class product {
+    var key:String?=null
+    var name:String?=null
+    var image:String?=null
+    var price:String?=null
+}
