@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "215198601945",
-    "project_id": "lilaccosmeticapp",
-    "storage_bucket": "lilaccosmeticapp.appspot.com"
+    "project_number": "1001017248418",
+    "project_id": "newlilacdata",
+    "storage_bucket": "newlilacdata.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:215198601945:android:dfe92d1f1309ae19fee4c8",
+        "mobilesdk_app_id": "1:1001017248418:android:059ae2a1536ba92f4925fb",
         "android_client_info": {
           "package_name": "com.example.lilaccosmeticapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "215198601945-8alma7kgut4jlo45fqcbb584hpf3kafp.apps.googleusercontent.com",
+          "client_id": "1001017248418-9iqtd6ae4tguv2out6r1htnqpj315uk2.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBBg1OSYLCDFKOu9NOBJf877QkZM-MFAbQ"
+          "current_key": "AIzaSyANmHlmb9QTYDU1GNY_KtlLA4a3Hrltx18"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "215198601945-8alma7kgut4jlo45fqcbb584hpf3kafp.apps.googleusercontent.com",
+              "client_id": "1001017248418-9iqtd6ae4tguv2out6r1htnqpj315uk2.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
