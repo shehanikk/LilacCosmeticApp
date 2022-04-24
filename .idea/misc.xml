@@ -3,11 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Mobile app LILAC/LilacCosmeticApp/app/src/main/res/drawable/ic_baseline_arrow_back_ios_24.xml" value="0.185" />
         <entry key="..\:/Mobile app LILAC/LilacCosmeticApp/app/src/main/res/layout/activity_catogeries.xml" value="0.17831813576494426" />
         <entry key="..\:/Mobile app LILAC/LilacCosmeticApp/app/src/main/res/layout/activity_createaccountpage.xml" value="0.33" />
         <entry key="..\:/Mobile app LILAC/LilacCosmeticApp/app/src/main/res/layout/activity_eye.xml" value="0.17831813576494426" />
         <entry key="..\:/Mobile app LILAC/LilacCosmeticApp/app/src/main/res/layout/activity_face.xml" value="0.17831813576494426" />
         <entry key="..\:/Mobile app LILAC/LilacCosmeticApp/app/src/main/res/layout/activity_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Mobile app LILAC/LilacCosmeticApp/app/src/main/res/layout/activity_lipgloss.xml" value="0.28690807799442897" />
         <entry key="..\:/Mobile app LILAC/LilacCosmeticApp/app/src/main/res/layout/activity_lips.xml" value="0.17831813576494426" />
         <entry key="..\:/Mobile app LILAC/LilacCosmeticApp/app/src/main/res/layout/activity_lipstick.xml" value="0.36666666666666664" />
         <entry key="..\:/Mobile app LILAC/LilacCosmeticApp/app/src/main/res/layout/activity_loading_screen.xml" value="0.358695652173913" />
