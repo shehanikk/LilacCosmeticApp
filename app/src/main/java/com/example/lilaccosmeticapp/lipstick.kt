@@ -103,7 +103,7 @@ class lipstick : AppCompatActivity(), ProductLoadListener, CartLoadListener {
     private fun loadProductFromFirebase() {
         val drinkModels : MutableList<product> = ArrayList()
         FirebaseDatabase.getInstance()
-            .getReference("Drink")
+            .getReference("Product")
             .addListenerForSingleValueEvent(object : ValueEventListener {
                 override fun onDataChange(snapshot: DataSnapshot) {
                     if (snapshot.exists())
@@ -133,7 +133,7 @@ class lipstick : AppCompatActivity(), ProductLoadListener, CartLoadListener {
     }
     private fun init(){
         productLoadListener = this
-        //cartLoadListener = this
+        cartLoadListener = this
 
         val gridLayoutManager = GridLayoutManager(this,2)
         rv_lipstick.layoutManager = gridLayoutManager
@@ -145,7 +145,7 @@ class lipstick : AppCompatActivity(), ProductLoadListener, CartLoadListener {
     }
 
     override fun onDrinkLoadSuccess(drinkModelList: List<product>?) {
-        val adapter = MyProductAdapter(this,drinkModelList!!)
+        val adapter = MyProductAdapter(this,drinkModelList!!, cartLoadListener )
         rv_lipstick.adapter = adapter
     }
 
