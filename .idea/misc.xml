@@ -49,10 +49,12 @@
         <entry key="..\:/mobile app 2022/LilacCosmeticApp/app/src/main/res/layout/activity_concealer.xml" value="0.25416666666666665" />
         <entry key="..\:/mobile app 2022/LilacCosmeticApp/app/src/main/res/layout/activity_createaccountpage.xml" value="0.25416666666666665" />
         <entry key="..\:/mobile app 2022/LilacCosmeticApp/app/src/main/res/layout/activity_eye.xml" value="0.25416666666666665" />
+        <entry key="..\:/mobile app 2022/LilacCosmeticApp/app/src/main/res/layout/activity_eyebrushes.xml" value="0.25416666666666665" />
         <entry key="..\:/mobile app 2022/LilacCosmeticApp/app/src/main/res/layout/activity_eyeliner.xml" value="0.264" />
         <entry key="..\:/mobile app 2022/LilacCosmeticApp/app/src/main/res/layout/activity_eyepalettes.xml" value="0.25416666666666665" />
         <entry key="..\:/mobile app 2022/LilacCosmeticApp/app/src/main/res/layout/activity_eyeprimer.xml" value="0.25416666666666665" />
         <entry key="..\:/mobile app 2022/LilacCosmeticApp/app/src/main/res/layout/activity_face.xml" value="0.25416666666666665" />
+        <entry key="..\:/mobile app 2022/LilacCosmeticApp/app/src/main/res/layout/activity_facebrushes.xml" value="0.25416666666666665" />
         <entry key="..\:/mobile app 2022/LilacCosmeticApp/app/src/main/res/layout/activity_foundation.xml" value="0.25416666666666665" />
         <entry key="..\:/mobile app 2022/LilacCosmeticApp/app/src/main/res/layout/activity_highlighter.xml" value="0.25416666666666665" />
         <entry key="..\:/mobile app 2022/LilacCosmeticApp/app/src/main/res/layout/activity_home.xml" value="0.264" />
@@ -67,6 +69,7 @@
         <entry key="..\:/mobile app 2022/LilacCosmeticApp/app/src/main/res/layout/activity_productlayout.xml" value="0.25416666666666665" />
         <entry key="..\:/mobile app 2022/LilacCosmeticApp/app/src/main/res/layout/activity_remcollection.xml" value="0.25416666666666665" />
         <entry key="..\:/mobile app 2022/LilacCosmeticApp/app/src/main/res/layout/activity_shoppingcart.xml" value="0.1" />
+        <entry key="..\:/mobile app 2022/LilacCosmeticApp/app/src/main/res/layout/activity_sponges.xml" value="0.25416666666666665" />
         <entry key="..\:/mobile app 2022/LilacCosmeticApp/app/src/main/res/layout/activity_welcome_screen.xml" value="0.25052083333333336" />
         <entry key="..\:/mobile app 2022/LilacCosmeticApp/app/src/main/res/layout/fragment_home1.xml" value="0.25052083333333336" />
         <entry key="..\:/mobile app 2022/LilacCosmeticApp/app/src/main/res/layout/fragment_home2.xml" value="0.25052083333333336" />
