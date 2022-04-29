@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LilacCosmeticApp">
         <activity
+            android:name=".eyebrushes"
+            android:exported="false" />
+        <activity
+            android:name=".sponges"
+            android:exported="false" />
+        <activity
+            android:name=".facebrushes"
+            android:exported="false" />
+        <activity
             android:name=".eyeprimer"
             android:exported="false" />
         <activity
