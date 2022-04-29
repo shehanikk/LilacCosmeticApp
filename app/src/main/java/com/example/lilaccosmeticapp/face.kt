@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_catogeries.*
 import kotlinx.android.synthetic.main.activity_face.*
+import kotlinx.android.synthetic.main.activity_lips.*
 
 class face : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -33,6 +34,31 @@ class face : AppCompatActivity() {
 
         btnCartFace.setOnClickListener(){
             val intent = Intent(this,shoppingcart::class.java)
+            startActivity(intent)
+        }
+
+        btnFoundation.setOnClickListener(){
+            val intent = Intent(this,foundation::class.java)
+            startActivity(intent)
+        }
+
+        btnBlushe.setOnClickListener(){
+            val intent = Intent(this,blushe::class.java)
+            startActivity(intent)
+        }
+
+        btnBronzer.setOnClickListener(){
+            val intent = Intent(this,bronzer::class.java)
+            startActivity(intent)
+        }
+
+        btnConcealer.setOnClickListener(){
+            val intent = Intent(this,concealer::class.java)
+            startActivity(intent)
+        }
+
+        btnHighlighter.setOnClickListener(){
+            val intent = Intent(this,highlighter::class.java)
             startActivity(intent)
         }
     }
