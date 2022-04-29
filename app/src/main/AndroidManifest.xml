@@ -12,6 +12,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LilacCosmeticApp">
         <activity
+            android:name=".eyeprimer"
+            android:exported="false" />
+        <activity
+            android:name=".highlighter"
+            android:exported="false" />
+        <activity
+            android:name=".concealer"
+            android:exported="false" />
+        <activity
+            android:name=".bronzer"
+            android:exported="false" />
+        <activity
+            android:name=".blushe"
+            android:exported="false" />
+        <activity
+            android:name=".foundation"
+            android:exported="false" />
+        <activity
+            android:name=".mascara"
+            android:exported="false" />
+        <activity
             android:name=".productlayout"
             android:exported="false" />
         <activity
