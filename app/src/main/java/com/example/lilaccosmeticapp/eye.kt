@@ -5,8 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_eye.*
 import kotlinx.android.synthetic.main.activity_eye.btnCartEye
-import kotlinx.android.synthetic.main.activity_eyepalettes.*
-import kotlinx.android.synthetic.main.activity_lips.*
 
 class eye : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

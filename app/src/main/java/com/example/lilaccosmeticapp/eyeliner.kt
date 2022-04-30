@@ -68,7 +68,7 @@ class eyeliner : AppCompatActivity(), ProductLoadListener, CartLoadListener {
         }
 
         btnBackEyeliner.setOnClickListener(){
-            val intent = Intent(this,catogeries::class.java)
+            val intent = Intent(this,eye::class.java)
             startActivity(intent)
         }
 
