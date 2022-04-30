@@ -35,6 +35,18 @@ class tool : AppCompatActivity() {
             val intent = Intent(this,shoppingcart::class.java)
             startActivity(intent)
         }
+        btnFaceBrushes.setOnClickListener(){
+            val intent = Intent(this,facebrushes::class.java)
+            startActivity(intent)
+        }
+        btnEyeBrushes.setOnClickListener(){
+            val intent = Intent(this,eyebrushes::class.java)
+            startActivity(intent)
+        }
+        btnSponges.setOnClickListener(){
+            val intent = Intent(this,sponges::class.java)
+            startActivity(intent)
+        }
 
     }
 }
