@@ -1,5 +1,6 @@
 package com.example.lilaccosmeticapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.GridLayoutManager
@@ -15,6 +16,7 @@ import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
+import kotlinx.android.synthetic.main.activity_foundation.*
 import kotlinx.android.synthetic.main.activity_highlighter.*
 import kotlinx.android.synthetic.main.activity_lipstick.*
 import org.greenrobot.eventbus.EventBus
@@ -49,6 +51,31 @@ class highlighter : AppCompatActivity(), ProductLoadListener, CartLoadListener {
         init()
         loadProductFromFirebase()
         countCartFromFirebase()
+
+        btnHomeHighlighter.setOnClickListener(){
+            val intent = Intent(this,home::class.java)
+            startActivity(intent)
+        }
+
+        btnCategoryHighlighter.setOnClickListener(){
+            val intent = Intent(this,catogeries::class.java)
+            startActivity(intent)
+        }
+
+        btnSaleHighlighter.setOnClickListener(){
+            val intent = Intent(this,sales::class.java)
+            startActivity(intent)
+        }
+
+        btnBackHighlighter.setOnClickListener(){
+            val intent = Intent(this,face::class.java)
+            startActivity(intent)
+        }
+
+        btnCartHighlighter.setOnClickListener(){
+            val intent = Intent(this,shoppingcart::class.java)
+            startActivity(intent)
+        }
     }
     private fun countCartFromFirebase() {
         val cartModels : MutableList<cart> = ArrayList()
