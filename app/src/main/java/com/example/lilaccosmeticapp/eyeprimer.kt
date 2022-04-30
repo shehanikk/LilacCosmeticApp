@@ -1,5 +1,6 @@
 package com.example.lilaccosmeticapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.GridLayoutManager
@@ -49,6 +50,31 @@ class eyeprimer : AppCompatActivity(), ProductLoadListener, CartLoadListener  {
         init()
         loadProductFromFirebase()
         countCartFromFirebase()
+
+        btnHomeEyeprimer.setOnClickListener(){
+            val intent = Intent(this,home::class.java)
+            startActivity(intent)
+        }
+
+        btnCategoryEyeprimer.setOnClickListener(){
+            val intent = Intent(this,catogeries::class.java)
+            startActivity(intent)
+        }
+
+        btnSaleEyeprimer.setOnClickListener(){
+            val intent = Intent(this,sales::class.java)
+            startActivity(intent)
+        }
+
+        btnBackEyeprimer.setOnClickListener(){
+            val intent = Intent(this,eye::class.java)
+            startActivity(intent)
+        }
+
+        btnCartEyeprimer.setOnClickListener(){
+            val intent = Intent(this,shoppingcart::class.java)
+            startActivity(intent)
+        }
 
     }
     private fun countCartFromFirebase() {

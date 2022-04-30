@@ -52,17 +52,17 @@ class eyepalettes : AppCompatActivity(), ProductLoadListener, CartLoadListener {
         loadProductFromFirebase()
         countCartFromFirebase()
 
-        btnHomeEyepalettes.setOnClickListener(){
+        btnHomeEyeprimer.setOnClickListener(){
             val intent = Intent(this,home::class.java)
             startActivity(intent)
         }
 
-        btnCategoryMascara.setOnClickListener(){
+        btnCategoryEyeprimer.setOnClickListener(){
             val intent = Intent(this,catogeries::class.java)
             startActivity(intent)
         }
 
-        btnSaleMascara.setOnClickListener(){
+        btnSaleEyeprimer.setOnClickListener(){
             val intent = Intent(this,sales::class.java)
             startActivity(intent)
         }
@@ -72,7 +72,7 @@ class eyepalettes : AppCompatActivity(), ProductLoadListener, CartLoadListener {
             startActivity(intent)
         }
 
-        btnCartMascara.setOnClickListener(){
+        btnCartEyeprimer.setOnClickListener(){
             val intent = Intent(this,shoppingcart::class.java)
             startActivity(intent)
         }

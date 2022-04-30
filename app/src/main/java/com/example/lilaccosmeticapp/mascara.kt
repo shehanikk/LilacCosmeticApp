@@ -16,7 +16,6 @@ import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
-import kotlinx.android.synthetic.main.activity_lipstick.*
 import kotlinx.android.synthetic.main.activity_mascara.*
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
@@ -56,12 +55,12 @@ class mascara : AppCompatActivity(), ProductLoadListener, CartLoadListener {
             startActivity(intent)
         }
 
-        btnCategoryMascara.setOnClickListener(){
+        btnCategoryEyeprimer.setOnClickListener(){
             val intent = Intent(this,catogeries::class.java)
             startActivity(intent)
         }
 
-        btnSaleMascara.setOnClickListener(){
+        btnSaleEyeprimer.setOnClickListener(){
             val intent = Intent(this,sales::class.java)
             startActivity(intent)
         }
@@ -71,7 +70,7 @@ class mascara : AppCompatActivity(), ProductLoadListener, CartLoadListener {
             startActivity(intent)
         }
 
-        btnCartMascara.setOnClickListener(){
+        btnCartEyeprimer.setOnClickListener(){
             val intent = Intent(this,shoppingcart::class.java)
             startActivity(intent)
         }
