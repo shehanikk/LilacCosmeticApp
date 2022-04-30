@@ -1,5 +1,6 @@
 package com.example.lilaccosmeticapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.GridLayoutManager
@@ -49,6 +50,32 @@ class mascara : AppCompatActivity(), ProductLoadListener, CartLoadListener {
         init()
         loadProductFromFirebase()
         countCartFromFirebase()
+
+        btnHomeMascara.setOnClickListener(){
+            val intent = Intent(this,home::class.java)
+            startActivity(intent)
+        }
+
+        btnCategoryMascara.setOnClickListener(){
+            val intent = Intent(this,catogeries::class.java)
+            startActivity(intent)
+        }
+
+        btnSaleMascara.setOnClickListener(){
+            val intent = Intent(this,sales::class.java)
+            startActivity(intent)
+        }
+
+        btnBackMascara.setOnClickListener(){
+            val intent = Intent(this,eye::class.java)
+            startActivity(intent)
+        }
+
+        btnCartMascara.setOnClickListener(){
+            val intent = Intent(this,shoppingcart::class.java)
+            startActivity(intent)
+        }
+
     }
     private fun countCartFromFirebase() {
         val cartModels : MutableList<cart> = ArrayList()
