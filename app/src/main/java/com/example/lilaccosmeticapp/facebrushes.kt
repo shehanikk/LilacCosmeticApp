@@ -77,7 +77,7 @@ class facebrushes : AppCompatActivity(), ProductLoadListener, CartLoadListener {
         val drinkModels : MutableList<product> = ArrayList()
         FirebaseDatabase.getInstance()
             .getReference("Product")
-            .child("faceblushes")
+            .child("facebrushes")
             .addListenerForSingleValueEvent(object : ValueEventListener {
                 override fun onDataChange(snapshot: DataSnapshot) {
                     if (snapshot.exists())
