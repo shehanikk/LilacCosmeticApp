@@ -1,5 +1,6 @@
 package com.example.lilaccosmeticapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.GridLayoutManager
@@ -15,6 +16,7 @@ import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
+import kotlinx.android.synthetic.main.activity_facebrushes.*
 import kotlinx.android.synthetic.main.activity_lipstick.*
 import kotlinx.android.synthetic.main.activity_sponges.*
 import org.greenrobot.eventbus.EventBus
@@ -49,6 +51,31 @@ class sponges : AppCompatActivity(), ProductLoadListener, CartLoadListener {
         init()
         loadProductFromFirebase()
         countCartFromFirebase()
+
+        btnHomeSponges.setOnClickListener(){
+            val intent = Intent(this,home::class.java)
+            startActivity(intent)
+        }
+
+        btnCategorySponges.setOnClickListener(){
+            val intent = Intent(this,catogeries::class.java)
+            startActivity(intent)
+        }
+
+        btnSaleSponges.setOnClickListener(){
+            val intent = Intent(this,sales::class.java)
+            startActivity(intent)
+        }
+
+        btnBackSponges.setOnClickListener(){
+            val intent = Intent(this,tool::class.java)
+            startActivity(intent)
+        }
+
+        btnCartSponges.setOnClickListener(){
+            val intent = Intent(this,shoppingcart::class.java)
+            startActivity(intent)
+        }
     }
     private fun countCartFromFirebase() {
         val cartModels : MutableList<cart> = ArrayList()
