@@ -17,7 +17,6 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 import kotlinx.android.synthetic.main.activity_eyeprimer.*
-import kotlinx.android.synthetic.main.activity_lipstick.*
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 import org.greenrobot.eventbus.ThreadMode
@@ -51,17 +50,17 @@ class eyeprimer : AppCompatActivity(), ProductLoadListener, CartLoadListener  {
         loadProductFromFirebase()
         countCartFromFirebase()
 
-        btnHomeEyeprimer.setOnClickListener(){
+        btnHomeFoundation.setOnClickListener(){
             val intent = Intent(this,home::class.java)
             startActivity(intent)
         }
 
-        btnCategoryEyeprimer.setOnClickListener(){
+        btnCategoryFoundation.setOnClickListener(){
             val intent = Intent(this,catogeries::class.java)
             startActivity(intent)
         }
 
-        btnSaleEyeprimer.setOnClickListener(){
+        btnSaleFoundation.setOnClickListener(){
             val intent = Intent(this,sales::class.java)
             startActivity(intent)
         }
@@ -71,7 +70,7 @@ class eyeprimer : AppCompatActivity(), ProductLoadListener, CartLoadListener  {
             startActivity(intent)
         }
 
-        btnCartEyeprimer.setOnClickListener(){
+        btnCartFoundation.setOnClickListener(){
             val intent = Intent(this,shoppingcart::class.java)
             startActivity(intent)
         }

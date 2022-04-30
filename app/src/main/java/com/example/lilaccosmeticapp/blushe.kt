@@ -1,5 +1,6 @@
 package com.example.lilaccosmeticapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.GridLayoutManager
@@ -16,6 +17,7 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 import kotlinx.android.synthetic.main.activity_blushe.*
+import kotlinx.android.synthetic.main.activity_foundation.*
 import kotlinx.android.synthetic.main.activity_lipstick.*
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
@@ -49,6 +51,31 @@ class blushe : AppCompatActivity(), ProductLoadListener, CartLoadListener {
         init()
         loadProductFromFirebase()
         countCartFromFirebase()
+
+        btnHomeBlushe.setOnClickListener(){
+            val intent = Intent(this,home::class.java)
+            startActivity(intent)
+        }
+
+        btnCategoryBlushe.setOnClickListener(){
+            val intent = Intent(this,catogeries::class.java)
+            startActivity(intent)
+        }
+
+        btnSaleBlushe.setOnClickListener(){
+            val intent = Intent(this,sales::class.java)
+            startActivity(intent)
+        }
+
+        btnBackBlushe.setOnClickListener(){
+            val intent = Intent(this,face::class.java)
+            startActivity(intent)
+        }
+
+        btnCartBlushe.setOnClickListener(){
+            val intent = Intent(this,shoppingcart::class.java)
+            startActivity(intent)
+        }
     }
     private fun countCartFromFirebase() {
         val cartModels : MutableList<cart> = ArrayList()
