@@ -78,7 +78,7 @@ class foundation : AppCompatActivity(), ProductLoadListener, CartLoadListener {
         val drinkModels : MutableList<product> = ArrayList()
         FirebaseDatabase.getInstance()
             .getReference("Product")
-            .child("lipsticks")
+            .child("foundation")
             .addListenerForSingleValueEvent(object : ValueEventListener {
                 override fun onDataChange(snapshot: DataSnapshot) {
                     if (snapshot.exists())
