@@ -55,12 +55,12 @@ class mascara : AppCompatActivity(), ProductLoadListener, CartLoadListener {
             startActivity(intent)
         }
 
-        btnCategoryEyeprimer.setOnClickListener(){
+        btnCategoryFoundation.setOnClickListener(){
             val intent = Intent(this,catogeries::class.java)
             startActivity(intent)
         }
 
-        btnSaleEyeprimer.setOnClickListener(){
+        btnSaleFoundation.setOnClickListener(){
             val intent = Intent(this,sales::class.java)
             startActivity(intent)
         }
@@ -70,7 +70,7 @@ class mascara : AppCompatActivity(), ProductLoadListener, CartLoadListener {
             startActivity(intent)
         }
 
-        btnCartEyeprimer.setOnClickListener(){
+        btnCartFoundation.setOnClickListener(){
             val intent = Intent(this,shoppingcart::class.java)
             startActivity(intent)
         }
