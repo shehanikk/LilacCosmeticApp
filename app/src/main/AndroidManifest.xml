@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LilacCosmeticApp">
         <activity
+            android:name=".orderPlacement"
+            android:exported="false" />
+        <activity
             android:name=".eyebrushes"
             android:exported="false" />
         <activity
