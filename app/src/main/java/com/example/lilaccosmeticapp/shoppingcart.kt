@@ -1,5 +1,6 @@
 package com.example.lilaccosmeticapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.DividerItemDecoration
@@ -45,6 +46,12 @@ class shoppingcart : AppCompatActivity() , CartLoadListener {
         setContentView(R.layout.activity_shoppingcart)
         init()
         loadCartFromFirebase()
+
+        btnPlaceOrder.setOnClickListener(){
+            val intent = Intent(this,orderPlacement::class.java)
+            startActivity(intent)
+          
+        }
     }
 
     private fun loadCartFromFirebase() {
