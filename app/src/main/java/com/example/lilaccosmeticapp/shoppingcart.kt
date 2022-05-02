@@ -50,7 +50,6 @@ class shoppingcart : AppCompatActivity() , CartLoadListener {
         btnPlaceOrder.setOnClickListener(){
             val intent = Intent(this,orderPlacement::class.java)
             startActivity(intent)
-          
         }
     }
 
