@@ -6,65 +6,127 @@
     android:layout_height="match_parent"
     tools:context=".orderPlacement">
 
-    <TextView
-        android:id="@+id/textView29"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Fill the details to confirm the order"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:textColor="@color/black"
-        tools:layout_editor_absoluteX="66dp"
-        tools:layout_editor_absoluteY="36dp"
-        tools:ignore="MissingConstraints" />
-
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/inputName"
-        android:layout_width="287dp"
-        android:layout_height="36dp"
-        android:hint="full name"
-        android:textSize="15dp"
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="439dp"
+        android:layout_height="617dp"
+        android:foreground="@drawable/untitled_design__12_"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.741"
+        app:layout_constraintHorizontal_bias="0.392"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView29"
-        app:layout_constraintVertical_bias="0.147" />
-
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/inputAddress"
-        android:layout_width="303dp"
-        android:layout_height="142dp"
-        android:hint="Address"
-        android:textSize="15dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.741"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView29"
-        app:layout_constraintVertical_bias="0.356" />
-
-    <com.google.android.material.textfield.TextInputEditText
-        android:id="@+id/inputContactNo"
-        android:layout_width="287dp"
-        android:layout_height="36dp"
-        android:hint="Contact Number"
-        android:textSize="15dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.741"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView29"
-        app:layout_constraintVertical_bias="0.625" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.122"
+        app:srcCompat="@drawable/untitled_design__15_" />
 
     <Button
-        android:id="@+id/btnConfirm"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Confirm OrDER"
+        android:id="@+id/btnBackYourdetails"
+        android:layout_width="40dp"
+        android:layout_height="31dp"
+        android:foreground="@drawable/group_8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.043"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar34"
+        android:layout_width="432dp"
+        android:layout_height="57dp"
+        android:background="#865F7F"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="149dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-black"
+        android:letterSpacing="0.2"
+        android:text="YOUR DETAILS"
+        android:textColor="@color/white"
+        android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.833" />
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="306dp"
+        android:layout_height="56dp"
+        android:fontFamily="sans-serif-black"
+        android:lineSpacingExtra="8sp"
+        android:text=" Please Enter Your Details To Confirm Your Order"
+        android:textColor="#EB302D2D"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.306"
+        tools:ignore="MissingConstraints" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/inputName"
+        android:layout_width="369dp"
+        android:layout_height="45dp"
+        android:hint="full name"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.357"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29"
+        app:layout_constraintVertical_bias="0.108" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/inputAddress"
+        android:layout_width="369dp"
+        android:layout_height="47dp"
+        android:hint="Address"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29"
+        app:layout_constraintVertical_bias="0.349" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/inputContactNo"
+        android:layout_width="374dp"
+        android:layout_height="50dp"
+        android:hint="Contact Number"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.405"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29"
+        app:layout_constraintVertical_bias="0.605" />
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="303dp"
+        android:layout_height="66dp"
+        android:background="@android:color/transparent"
+        android:foreground="@drawable/group_85"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.962" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
