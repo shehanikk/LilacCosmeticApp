@@ -23,10 +23,6 @@ class orderPlacement : AppCompatActivity(){
          binding = ActivityOrderPlacementBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        btnBackYourdetails.setOnClickListener(){
-            val intent = Intent(this,shoppingcart::class.java)
-            startActivity(intent)
-        }
 
 
         binding.btnConfirm.setOnClickListener(){
