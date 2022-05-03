@@ -1,5 +1,6 @@
 package com.example.lilaccosmeticapp
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,6 +9,8 @@ import com.example.lilaccosmeticapp.databinding.ActivityOrderPlacementBinding
 import com.example.lilaccosmeticapp.models.Users
 import com.google.firebase.database.DatabaseReference
 import com.google.firebase.database.FirebaseDatabase
+import kotlinx.android.synthetic.main.activity_mascara.*
+import kotlinx.android.synthetic.main.activity_order_placement.*
 
 class orderPlacement : AppCompatActivity(){
 
@@ -19,6 +22,11 @@ class orderPlacement : AppCompatActivity(){
         setContentView(R.layout.activity_order_placement)
          binding = ActivityOrderPlacementBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        btnBackYourdetails.setOnClickListener(){
+            val intent = Intent(this,shoppingcart::class.java)
+            startActivity(intent)
+        }
 
 
         binding.btnConfirm.setOnClickListener(){
