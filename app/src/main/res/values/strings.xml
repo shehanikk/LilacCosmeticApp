@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">LilacCosmeticApp</string>
     <string name="title_activity_home">home</string>
+
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
