@@ -8,11 +8,60 @@
 
     <Button
         android:id="@+id/btnGoogleLogin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="295dp"
+        android:layout_height="73dp"
+        android:background="@android:color/transparent"
+        android:foreground="@drawable/group_86"
         android:text="Button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.99" />
+
+    <ImageView
+        android:id="@+id/googlebackgimg"
+        android:layout_width="433dp"
+        android:layout_height="696dp"
+        android:foreground="@drawable/add_a_subheading"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/blushe" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="192dp"
+        android:layout_height="42dp"
+        android:fontFamily="cursive"
+        android:foregroundTint="#000000"
+        android:text="Makeup is art ,"
+        android:textColor="#020202"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.429"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.751" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="222dp"
+        android:layout_height="39dp"
+        android:fontFamily="cursive"
+        android:foregroundTint="#000000"
+        android:text="Beauty is spirit ,"
+        android:textColor="#020202"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.693"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.836" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
