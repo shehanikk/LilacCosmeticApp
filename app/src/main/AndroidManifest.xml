@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LilacCosmeticApp">
         <activity
+            android:name=".thankyoupage"
+            android:exported="false" />
+        <activity
             android:name=".googleauth"
             android:exported="false" />
         <activity
