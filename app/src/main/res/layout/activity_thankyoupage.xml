@@ -8,8 +8,8 @@
 
     <ImageView
         android:id="@+id/imageView23"
-        android:layout_width="412dp"
-        android:layout_height="734dp"
+        android:layout_width="441dp"
+        android:layout_height="754dp"
         android:foreground="@drawable/thank_you_for_your_order"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
