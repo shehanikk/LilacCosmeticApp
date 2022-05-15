@@ -74,7 +74,7 @@
         android:layout_marginEnd="63dp"
         android:layout_marginBottom="12dp"
         android:background="@android:color/transparent"
-        android:foreground="@drawable/group_86" />
+        android:foreground="@drawable/checkout_button" />
 
 
 </RelativeLayout>
