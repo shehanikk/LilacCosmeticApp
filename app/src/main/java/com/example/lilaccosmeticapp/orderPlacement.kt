@@ -40,6 +40,8 @@ class orderPlacement : AppCompatActivity(){
                 binding.inputContactNo.text?.clear()
 
                 Toast.makeText(this,"Successfuly Saved",Toast.LENGTH_SHORT).show()
+                val intent = Intent(this,thankyoupage::class.java)
+                startActivity(intent)
             }.addOnFailureListener{
                 Toast.makeText(this,"Saving Faliled",Toast.LENGTH_SHORT).show()
             }
