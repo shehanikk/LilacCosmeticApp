@@ -30,5 +30,17 @@ class remcollection : AppCompatActivity() {
             val intent = Intent(this,home::class.java)
             startActivity(intent)
         }
+        btnKylieCartAdd7.setOnClickListener(){
+            val intent = Intent(this,eyepalettes::class.java)
+            startActivity(intent)
+        }
+        btnKylieCartAdd8.setOnClickListener(){
+            val intent = Intent(this,highlighter::class.java)
+            startActivity(intent)
+        }
+        btnKylieCartAdd9.setOnClickListener(){
+            val intent = Intent(this,eyeliner::class.java)
+            startActivity(intent)
+        }
     }
 }
