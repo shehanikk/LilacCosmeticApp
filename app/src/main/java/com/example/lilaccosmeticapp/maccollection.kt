@@ -30,5 +30,18 @@ class maccollection : AppCompatActivity() {
             val intent = Intent(this,home::class.java)
             startActivity(intent)
         }
+        btnKylieCartAdd2.setOnClickListener(){
+            val intent = Intent(this,lipstick::class.java)
+            startActivity(intent)
+        }
+        btnKylieCartAdd3.setOnClickListener(){
+            val intent = Intent(this,eyepalettes::class.java)
+            startActivity(intent)
+        }
+        btnKylieCartAdd6.setOnClickListener(){
+            val intent = Intent(this,foundation::class.java)
+            startActivity(intent)
+        }
+
     }
 }

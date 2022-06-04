@@ -30,5 +30,17 @@ class kyliecollection : AppCompatActivity() {
             val intent = Intent(this,home::class.java)
             startActivity(intent)
         }
+        btnKylieCartAdd.setOnClickListener(){
+            val intent = Intent(this,bronzer::class.java)
+            startActivity(intent)
+        }
+        btnKylieCartAdd4.setOnClickListener(){
+            val intent = Intent(this,lipgloss::class.java)
+            startActivity(intent)
+        }
+        btnKylieCartAdd5.setOnClickListener(){
+            val intent = Intent(this,blushe::class.java)
+            startActivity(intent)
+        }
     }
 }
